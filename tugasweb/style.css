@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(30, 30, 30);
+    color: aliceblue;
+}
+p{
+    font-weight: 400;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.navbar{
+    position: relative;
+    padding: 20px 0 20px 0;
+    background-color: midnightblue;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar li{
+    list-style: none;
+    padding: 0;
+}
+.navbar h1{
+    font-size: 1rem;
+    padding: 0 20px 0 20px;
+}
+.navbar a{
+    padding: 20px 10px 20px 10px;
+}
+.navbar a:hover{
+    background-color: rgba(240, 248, 255, 0.1);
+}
+
+.content{
+    padding: 20px;
+    position: relative;
+}
+.content h1{
+    font-size: 1rem;
+    padding-bottom: 20px;
+}
+.insertBtn{
+    padding: 10px 0 10px 0;
+}
+.insertBtn a{
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: midnightblue;
+    transition: ease-in-out 200ms all;
+}
+.insertBtn a:hover{
+    background-color: dodgerblue;
+}
+
+table{
+    margin: 50px 0;
+    color: rgb(30, 30, 30);
+}
+.header th{
+    color: aliceblue;
+    background-color: midnightblue;
+}
+table th{
+    padding: 10px;
+    min-width: fit-content;
+    color: aliceblue;
+    background-color: rgba(240, 248, 255, 0.2);
+}
+
+.form-container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 300px;
+}
+input{
+    width: 100%;
+    padding: 5px 10px;
+    margin: 5px 0 20px 0;
+}
+input[type=submit]{
+    width: 50%;
+    padding: 10px 0;
+    background-color: midnightblue;
+    color: aliceblue;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: ease-in-out 200ms all;
+}
+input[type=submit]:hover{
+    background-color: dodgerblue;
+}
+.btn a:hover{
+    color: dodgerblue;
+}
